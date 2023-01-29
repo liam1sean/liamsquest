@@ -1,0 +1,39 @@
+type BEHAVIOR @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  client_id: ID
+  observation_id: ID
+  lst_updt_dt: AWSDate
+  lst_updt_tm: AWSTime
+  user_id: String
+}
+
+type OBSERVATION @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  observation_id: ID
+  observation_dt: AWSDate
+  frequency: Int
+  duration: Int
+  intensity: Int
+  replacement_behavior: Int
+  notes: String
+  lst_updt_dt: AWSDate
+  lst_updt_tm: AWSTime
+  user_id: String
+}
+
+type CLIENT @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  client_id: ID
+  first_name: String
+  middle_name: String
+  last_name: String!
+  date_of_birth: AWSDate
+  social_security_number: String
+  image: String
+  eff_dt: AWSDate
+  canc_dt: AWSDate
+  user_id: String
+  lst_updt_dt: AWSDate
+  lst_updt_tm: String
+}
+ 

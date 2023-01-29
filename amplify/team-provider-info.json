@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-liamsquest-staging-51452-authRole",
+      "UnauthRoleArn": "arn:aws:iam::204375034896:role/amplify-liamsquest-staging-51452-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::204375034896:role/amplify-liamsquest-staging-51452-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-liamsquest-staging-51452-deployment",
+      "UnauthRoleName": "amplify-liamsquest-staging-51452-unauthRole",
+      "StackName": "amplify-liamsquest-staging-51452",
+      "StackId": "arn:aws:cloudformation:us-east-2:204375034896:stack/amplify-liamsquest-staging-51452/8b166f00-9493-11ed-b1d0-0a74f296a8f6",
+      "AmplifyAppId": "d2p2cppwhpvngb"
+    }
+  }
+}
